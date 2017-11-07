@@ -1,0 +1,512 @@
+###############################################################################
+#
+# IAR ELF Linker V7.80.3.12102/W32 for ARM                07/Nov/2017  17:04:59
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Exe\TOUCH.out
+#    Map file     =  
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\List\TOUCH.map
+#    Command line =  
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\gpio.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\main.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\spi.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\startup_stm32f072xb.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\stm32f0xx_hal.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\stm32f0xx_hal_cortex.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\stm32f0xx_hal_dma.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\stm32f0xx_hal_flash.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\stm32f0xx_hal_flash_ex.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\stm32f0xx_hal_gpio.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\stm32f0xx_hal_i2c.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\stm32f0xx_hal_i2c_ex.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\stm32f0xx_hal_msp.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\stm32f0xx_hal_pwr.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\stm32f0xx_hal_pwr_ex.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\stm32f0xx_hal_rcc.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\stm32f0xx_hal_rcc_ex.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\stm32f0xx_hal_spi.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\stm32f0xx_hal_spi_ex.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\stm32f0xx_hal_tim.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\stm32f0xx_hal_tim_ex.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\stm32f0xx_hal_tsc.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\stm32f0xx_hal_uart.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\stm32f0xx_hal_uart_ex.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\stm32f0xx_it.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\system_stm32f0xx.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\tim.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\tsc.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\tsl.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\tsl_acq.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\tsl_acq_tsc.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\tsl_dxs.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\tsl_ecs.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\tsl_filter.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\tsl_globals.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\tsl_linrot.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\tsl_object.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\tsl_time.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\tsl_touchkey.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\tsl_user.o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj\usart.o --redirect
+#        _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Exe\TOUCH.out --map
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\List\TOUCH.map
+#        --config
+#        C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM/stm32f072xb_flash.icf
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0801ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20003fff] { rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A0":                                       0xc0
+  .intvec            ro code  0x08000000    0xc0  startup_stm32f072xb.o [1]
+                            - 0x080000c0    0xc0
+
+"P1":                                     0x2d4c
+  .text              ro code  0x080000c0   0x614  stm32f0xx_hal_rcc.o [1]
+  .text              ro code  0x080006d4     0xc  stm32f0xx_hal.o [1]
+  .text              ro code  0x080006e0    0x24  stm32f0xx_hal.o [1]
+  .text              ro code  0x08000704    0x34  ABImemcpy.o [4]
+  .text              ro code  0x08000738    0xae  I32DivModFast.o [4]
+  .text              ro code  0x080007e6     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x080007e8    0xa6  stm32f0xx_hal_cortex.o [1]
+  .text              ro code  0x0800088e     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08000890     0x2  IntDivZer.o [4]
+  .text              ro code  0x08000892     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08000894   0x4dc  stm32f0xx_hal_tim.o [1]
+  .text              ro code  0x08000d70   0x198  tim.o [1]
+  .text              ro code  0x08000f08     0x2  stm32f0xx_hal_tim.o [1]
+  .text              ro code  0x08000f0a     0x2  stm32f0xx_hal_tim.o [1]
+  .text              ro code  0x08000f0c     0x2  stm32f0xx_hal_tim.o [1]
+  .text              ro code  0x08000f0e     0x2  stm32f0xx_hal_tim.o [1]
+  .text              ro code  0x08000f10     0x2  stm32f0xx_hal_tim.o [1]
+  .text              ro code  0x08000f12     0x2  stm32f0xx_hal_tim_ex.o [1]
+  .text              ro code  0x08000f14     0x2  stm32f0xx_hal_tim.o [1]
+  .text              ro code  0x08000f16     0x2  stm32f0xx_hal_tim_ex.o [1]
+  .text              ro code  0x08000f18   0x1b2  main.o [1]
+  .text              ro code  0x080010ca     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x080010cc    0xbc  stm32f0xx_hal_tim_ex.o [1]
+  .text              ro code  0x08001188   0x1c0  stm32f0xx_hal_gpio.o [1]
+  .text              ro code  0x08001348    0x20  stm32f0xx_hal.o [1]
+  .text              ro code  0x08001368    0xa0  gpio.o [1]
+  .text              ro code  0x08001408    0xf4  spi.o [1]
+  .text              ro code  0x080014fc   0x11c  tsc.o [1]
+  .text              ro code  0x08001618    0xbc  usart.o [1]
+  .text              ro code  0x080016d4    0x20  stm32f0xx_hal.o [1]
+  .text              ro code  0x080016f4    0xe4  tsl_user.o [1]
+  .text              ro code  0x080017d8   0x138  stm32f0xx_hal_rcc_ex.o [1]
+  .text              ro code  0x08001910   0x468  stm32f0xx_hal_uart.o [1]
+  .text              ro code  0x08001d78    0x40  stm32f0xx_hal_msp.o [1]
+  .text              ro code  0x08001db8    0xbc  stm32f0xx_hal_spi.o [1]
+  .text              ro code  0x08001e74    0xbe  stm32f0xx_hal_tsc.o [1]
+  .text              ro code  0x08001f32     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08001f34    0xb8  tsl_object.o [1]
+  .text              ro code  0x08001fec    0x30  tsl.o [1]
+  .text              ro code  0x0800201c    0xe4  tsl_acq_tsc.o [1]
+  .text              ro code  0x08002100   0x140  tsl_acq.o [1]
+  .text              ro code  0x08002240    0xb8  tsl_dxs.o [1]
+  .text              ro code  0x080022f8    0x52  tsl_time.o [1]
+  .text              ro code  0x0800234a     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x0800234c   0x1ac  tsl_ecs.o [1]
+  .text              ro code  0x080024f8   0x448  tsl_touchkey.o [1]
+  .rodata            const    0x08002940   0x2a0  tsl_user.o [1]
+  .text              ro code  0x08002be0    0x70  system_stm32f0xx.o [1]
+  .text              ro code  0x08002c50    0x3c  zero_init3.o [4]
+  .text              ro code  0x08002c8c    0x3c  packbits_init_single.o [4]
+  .text              ro code  0x08002cc8    0x28  data_init.o [4]
+  .iar.init_table    const    0x08002cf0    0x20  - Linker created -
+  .text              ro code  0x08002d10    0x1c  stm32f0xx_it.o [1]
+  .text              ro code  0x08002d2c    0x10  stm32f0xx_hal.o [1]
+  .text              ro code  0x08002d3c    0x1a  cmain.o [4]
+  .text              ro code  0x08002d56     0x4  low_level_init.o [3]
+  .text              ro code  0x08002d5a     0x8  exit.o [3]
+  .text              ro code  0x08002d62     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002d64     0xa  cexit.o [4]
+  .text              ro code  0x08002d6e     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002d70    0x14  exit.o [5]
+  .text              ro code  0x08002d84    0x10  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002d94     0xc  cstartup_M.o [4]
+  .rodata            const    0x08002da0     0x8  system_stm32f0xx.o [1]
+  .text              ro code  0x08002da8     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002daa     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002dac     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002dae     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002db0     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002db2     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002db4     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002db6     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002db8     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002dba     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002dbc     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002dbe     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002dc0     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002dc2     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002dc4     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002dc6     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002dc8     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002dca     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002dcc     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002dce     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002dd0     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002dd2     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002dd4     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002dd6     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002dd8     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002dda     0x2  startup_stm32f072xb.o [1]
+  .text              ro code  0x08002ddc     0x2  startup_stm32f072xb.o [1]
+  .rodata            const    0x08002dde     0x0  zero_init3.o [4]
+  .rodata            const    0x08002dde     0x0  packbits_init_single.o [4]
+  Initializer bytes  const    0x08002dde    0x2e  <for P2-1>
+                            - 0x08002e0c  0x2d4c
+
+"P2", part 1 of 3:                          0x40
+  P2-1                        0x20000000    0x40  <Init block>
+    .data            inited   0x20000000     0xd  main.o [1]
+    .data            inited   0x20000010     0x4  system_stm32f0xx.o [1]
+    .data            inited   0x20000014    0x1c  tsl_user.o [1]
+    .data            inited   0x20000030    0x10  tsl_user.o [1]
+                            - 0x20000040    0x40
+
+"P2", part 2 of 3:                         0x400
+  CSTACK                      0x20000040   0x400  <Block>
+    CSTACK           uninit   0x20000040   0x400  <Block tail>
+                            - 0x20000440   0x400
+
+"P2", part 3 of 3:                         0x2c8
+  .bss               zero     0x20000440    0x90  tsl_user.o [1]
+  .bss               zero     0x200004d0    0x70  usart.o [1]
+  .bss               zero     0x20000540    0x64  spi.o [1]
+  .bss               zero     0x200005a4    0x54  tsl_user.o [1]
+  .bss               zero     0x200005f8    0x40  tim.o [1]
+  .bss               zero     0x20000638    0x40  tim.o [1]
+  .bss               zero     0x20000678    0x40  tsc.o [1]
+  .bss               zero     0x200006b8    0x30  tsl_user.o [1]
+  .bss               zero     0x200006e8    0x18  tsl_globals.o [1]
+  .bss               zero     0x20000700     0x4  stm32f0xx_hal.o [1]
+  .bss               zero     0x20000704     0x2  tsl_touchkey.o [1]
+                            - 0x20000706   0x2c6
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x2c6:
+          0x20000440  0x2c6
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x2e (71% of destination):
+          0x08002dde   0x2e
+    1 destination range, total size 0x40:
+          0x20000000   0x40
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj: [1]
+    gpio.o                      160
+    main.o                      434        9       13
+    spi.o                       244               100
+    startup_stm32f072xb.o       278
+    stm32f0xx_hal.o             128                 4
+    stm32f0xx_hal_cortex.o      166
+    stm32f0xx_hal_gpio.o        448
+    stm32f0xx_hal_msp.o          64
+    stm32f0xx_hal_rcc.o       1 556
+    stm32f0xx_hal_rcc_ex.o      312
+    stm32f0xx_hal_spi.o         188
+    stm32f0xx_hal_tim.o       1 256
+    stm32f0xx_hal_tim_ex.o      192
+    stm32f0xx_hal_tsc.o         190
+    stm32f0xx_hal_uart.o      1 128
+    stm32f0xx_it.o               28
+    system_stm32f0xx.o          112       13        4
+    tim.o                       408               128
+    tsc.o                       284                64
+    tsl.o                        48
+    tsl_acq.o                   320
+    tsl_acq_tsc.o               228
+    tsl_dxs.o                   184
+    tsl_ecs.o                   428
+    tsl_globals.o                                  24
+    tsl_object.o                184
+    tsl_time.o                   82
+    tsl_touchkey.o            1 096                 2
+    tsl_user.o                  228      704      320
+    usart.o                     188               112
+    -------------------------------------------------
+    Total:                   10 562      726      771
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl6M_tlf.a: [3]
+    exit.o                        8
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                       12
+
+rt6M_tl.a: [4]
+    ABImemcpy.o                  52
+    I32DivModFast.o             174
+    IntDivZer.o                   2
+    cexit.o                      10
+    cmain.o                      26
+    cstartup_M.o                 12
+    data_init.o                  40
+    packbits_init_single.o       60
+    zero_init3.o                 60
+    -------------------------------------------------
+    Total:                      436
+
+shb_l.a: [5]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                                            3
+    Linker created                        32    1 024
+-----------------------------------------------------
+    Grand Total:             11 030      758    1 798
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x08002cf0          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08002d10          --   Gb  - Linker created -
+?main                   0x08002d3d         Code  Gb  cmain.o [4]
+AHBPrescTable           0x08002c40   0x10  Data  Gb  system_stm32f0xx.o [1]
+APBPrescTable           0x08002da0    0x8  Data  Gb  system_stm32f0xx.o [1]
+CSTACK$$Base            0x20000040          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000440          --   Gb  - Linker created -
+CalibDiv                0x20000704    0x2  Data  Lc  tsl_touchkey.o [1]
+ECSLastTick             0x2000001c    0x2  Data  Gb  tsl_user.o [1]
+Envia_Tecla             0x20000000    0xc  Data  Gb  main.o [1]
+Envia_Tecla_NaoPress    0x2000000c    0x1  Data  Gb  main.o [1]
+HAL_Delay               0x080016d5   0x20  Code  Wk  stm32f0xx_hal.o [1]
+HAL_GPIO_Init           0x08001189  0x198  Code  Gb  stm32f0xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x08001321    0xc  Code  Gb  stm32f0xx_hal_gpio.o [1]
+HAL_GetTick             0x080006d5    0xc  Code  Wk  stm32f0xx_hal.o [1]
+HAL_IncTick             0x08002d2d   0x10  Code  Wk  stm32f0xx_hal.o [1]
+HAL_Init                0x08001349   0x1a  Code  Gb  stm32f0xx_hal.o [1]
+HAL_InitTick            0x080006e1   0x24  Code  Wk  stm32f0xx_hal.o [1]
+HAL_MspInit             0x08001d79   0x40  Code  Gb  stm32f0xx_hal_msp.o [1]
+HAL_NVIC_EnableIRQ      0x08000825    0xe  Code  Gb  stm32f0xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x0800081d    0x8  Code  Gb  stm32f0xx_hal_cortex.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                        0x080017d9  0x11c  Code  Gb  stm32f0xx_hal_rcc_ex.o [1]
+HAL_RCC_ClockConfig     0x080004ad  0x14e  Code  Gb  stm32f0xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x0800066b    0x6  Code  Gb  stm32f0xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq    0x08000675   0x14  Code  Gb  stm32f0xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x08000601   0x6a  Code  Gb  stm32f0xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x080000c1  0x3e0  Code  Gb  stm32f0xx_hal_rcc.o [1]
+HAL_SPI_Init            0x08001db9   0xb4  Code  Gb  stm32f0xx_hal_spi.o [1]
+HAL_SPI_MspInit         0x08001451   0x6c  Code  Gb  spi.o [1]
+HAL_SYSTICK_CLKSourceConfig
+                        0x0800085b   0x18  Code  Gb  stm32f0xx_hal_cortex.o [1]
+HAL_SYSTICK_Callback    0x0800088d    0x2  Code  Wk  stm32f0xx_hal_cortex.o [1]
+HAL_SYSTICK_Config      0x08000833   0x28  Code  Gb  stm32f0xx_hal_cortex.o [1]
+HAL_SYSTICK_IRQHandler  0x08000885    0x8  Code  Gb  stm32f0xx_hal_cortex.o [1]
+HAL_TIMEx_BreakCallback
+                        0x08000f13    0x2  Code  Wk  stm32f0xx_hal_tim_ex.o [1]
+HAL_TIMEx_CommutationCallback
+                        0x08000f17    0x2  Code  Wk  stm32f0xx_hal_tim_ex.o [1]
+HAL_TIMEx_ConfigBreakDeadTime
+                        0x0800110f   0x54  Code  Gb  stm32f0xx_hal_tim_ex.o [1]
+HAL_TIMEx_MasterConfigSynchronization
+                        0x080010cd   0x42  Code  Gb  stm32f0xx_hal_tim_ex.o [1]
+HAL_TIM_Base_Init       0x08000895   0x1e  Code  Gb  stm32f0xx_hal_tim.o [1]
+HAL_TIM_Base_MspInit    0x08000e4d   0x48  Code  Gb  tim.o [1]
+HAL_TIM_IC_CaptureCallback
+                        0x08000f0b    0x2  Code  Wk  stm32f0xx_hal_tim.o [1]
+HAL_TIM_IRQHandler      0x080008e5  0x150  Code  Gb  stm32f0xx_hal_tim.o [1]
+HAL_TIM_MspPostInit     0x08000e95   0x2a  Code  Gb  tim.o [1]
+HAL_TIM_OC_DelayElapsedCallback
+                        0x08000f0d    0x2  Code  Wk  stm32f0xx_hal_tim.o [1]
+HAL_TIM_PWM_ConfigChannel
+                        0x08000a35   0xd8  Code  Gb  stm32f0xx_hal_tim.o [1]
+HAL_TIM_PWM_Init        0x080008c7   0x1e  Code  Gb  stm32f0xx_hal_tim.o [1]
+HAL_TIM_PWM_MspInit     0x08000f09    0x2  Code  Wk  stm32f0xx_hal_tim.o [1]
+HAL_TIM_PWM_PulseFinishedCallback
+                        0x08000f0f    0x2  Code  Wk  stm32f0xx_hal_tim.o [1]
+HAL_TIM_PeriodElapsedCallback
+                        0x08000f11    0x2  Code  Wk  stm32f0xx_hal_tim.o [1]
+HAL_TIM_TriggerCallback
+                        0x08000f15    0x2  Code  Wk  stm32f0xx_hal_tim.o [1]
+HAL_TSC_Init            0x08001e75   0x9c  Code  Gb  stm32f0xx_hal_tsc.o [1]
+HAL_TSC_MspInit         0x08001545   0x82  Code  Gb  tsc.o [1]
+HAL_UART_Init           0x08001911   0x56  Code  Gb  stm32f0xx_hal_uart.o [1]
+HAL_UART_MspInit        0x08001651   0x42  Code  Gb  usart.o [1]
+HAL_UART_Transmit       0x08001979   0xc6  Code  Gb  stm32f0xx_hal_uart.o [1]
+MX_GPIO_Init            0x08001369   0xa0  Code  Gb  gpio.o [1]
+MX_SPI1_Init            0x08001409   0x48  Code  Gb  spi.o [1]
+MX_TIM17_Init           0x08000db9   0x94  Code  Gb  tim.o [1]
+MX_TIM6_Init            0x08000d71   0x46  Code  Gb  tim.o [1]
+MX_TSC_Init             0x080014fd   0x48  Code  Gb  tsc.o [1]
+MX_USART1_UART_Init     0x08001619   0x38  Code  Gb  usart.o [1]
+MyBanks                 0x08001790   0x48  Data  Gb  tsl_user.o [1]
+MyChannels_Data         0x20000440   0x90  Data  Gb  tsl_user.o [1]
+MyChannels_Dest         0x080029d0   0x18  Data  Gb  tsl_user.o [1]
+MyChannels_Src          0x08002940   0x90  Data  Gb  tsl_user.o [1]
+MyObjGroup              0x20000020   0x10  Data  Gb  tsl_user.o [1]
+MyObjects               0x08002b80   0x60  Data  Gb  tsl_user.o [1]
+MyTKeys                 0x08002a90   0xf0  Data  Gb  tsl_user.o [1]
+MyTKeys_Data            0x200006b8   0x30  Data  Gb  tsl_user.o [1]
+MyTKeys_ErrorStateProcess
+                        0x08001789    0x2  Code  Gb  tsl_user.o [1]
+MyTKeys_Methods         0x08002a88    0x8  Data  Gb  tsl_user.o [1]
+MyTKeys_OffStateProcess
+                        0x0800178b    0x2  Code  Gb  tsl_user.o [1]
+MyTKeys_Param           0x200005a4   0x54  Data  Gb  tsl_user.o [1]
+MyTKeys_StateMachine    0x080029e8   0xa0  Data  Gb  tsl_user.o [1]
+NVIC_SetPriority        0x080007e9   0x34  Code  Lc  stm32f0xx_hal_cortex.o [1]
+Process_Sensors         0x08000fd3   0xba  Code  Gb  main.o [1]
+Region$$Table$$Base     0x08002cf0          --   Gb  - Linker created -
+Region$$Table$$Limit    0x08002d10          --   Gb  - Linker created -
+SoftDelay               0x080020f5    0xc  Code  Lc  tsl_acq_tsc.o [1]
+SysTick_Handler         0x08002d11    0xc  Code  Gb  stm32f0xx_it.o [1]
+SystemClock_Config      0x08000f67   0x6c  Code  Gb  main.o [1]
+SystemCoreClock         0x20000010    0x4  Data  Gb  system_stm32f0xx.o [1]
+SystemInit              0x08002be1   0x48  Code  Gb  system_stm32f0xx.o [1]
+TIM6_DAC_IRQHandler     0x08002d1d    0xa  Code  Gb  stm32f0xx_it.o [1]
+TIM_Base_SetConfig      0x08000b11   0x7e  Code  Gb  stm32f0xx_hal_tim.o [1]
+TIM_OC1_SetConfig       0x08000b8f   0x74  Code  Lc  stm32f0xx_hal_tim.o [1]
+TIM_OC2_SetConfig       0x08000c03   0x68  Code  Gb  stm32f0xx_hal_tim.o [1]
+TIM_OC3_SetConfig       0x08000c6b   0x64  Code  Lc  stm32f0xx_hal_tim.o [1]
+TIM_OC4_SetConfig       0x08000cd5   0x52  Code  Lc  stm32f0xx_hal_tim.o [1]
+TSC_extract_groups      0x08001f11   0x22  Code  Lc  stm32f0xx_hal_tsc.o [1]
+TSL_Globals             0x200006e8   0x18  Data  Gb  tsl_globals.o [1]
+TSL_Init                0x08001fed   0x30  Code  Gb  tsl.o [1]
+TSL_Params              0x20000030   0x10  Data  Gb  tsl_user.o [1]
+TSL_acq_BankConfig      0x0800201d   0x60  Code  Gb  tsl_acq_tsc.o [1]
+TSL_acq_BankGetResult   0x08002101  0x138  Code  Gb  tsl_acq.o [1]
+TSL_acq_BankStartAcq    0x0800207d   0x1e  Code  Gb  tsl_acq_tsc.o [1]
+TSL_acq_BankWaitEOC     0x0800209b   0x18  Code  Gb  tsl_acq_tsc.o [1]
+TSL_acq_CheckNoise      0x080020e5    0x4  Code  Gb  tsl_acq_tsc.o [1]
+TSL_acq_ComputeDelta    0x080020d9    0x6  Code  Gb  tsl_acq_tsc.o [1]
+TSL_acq_ComputeMeas     0x080020df    0x6  Code  Gb  tsl_acq_tsc.o [1]
+TSL_acq_GetMeas         0x080020b3   0x12  Code  Gb  tsl_acq_tsc.o [1]
+TSL_acq_TestFirstReferenceIsValid
+                        0x080020f1    0x4  Code  Gb  tsl_acq_tsc.o [1]
+TSL_acq_TestReferenceOutOfRange
+                        0x080020ed    0x4  Code  Gb  tsl_acq_tsc.o [1]
+TSL_acq_UseFilter       0x080020e9    0x4  Code  Gb  tsl_acq_tsc.o [1]
+TSL_dxs_FirstObj        0x08002241   0xb8  Code  Gb  tsl_dxs.o [1]
+TSL_ecs_CalcK           0x0800234d   0x9a  Code  Gb  tsl_ecs.o [1]
+TSL_ecs_Process         0x08002479   0x72  Code  Gb  tsl_ecs.o [1]
+TSL_ecs_ProcessK        0x080023e7   0x92  Code  Gb  tsl_ecs.o [1]
+TSL_obj_GroupInit       0x08001f35   0x50  Code  Gb  tsl_object.o [1]
+TSL_obj_GroupProcess    0x08001f85   0x50  Code  Gb  tsl_object.o [1]
+TSL_obj_SetGlobalObj    0x08001fd5   0x12  Code  Gb  tsl_object.o [1]
+TSL_tim_CheckDelay_ms   0x080022f9   0x2a  Code  Gb  tsl_time.o [1]
+TSL_tkey_CalibrationStateProcess
+                        0x0800273d   0x9e  Code  Gb  tsl_touchkey.o [1]
+TSL_tkey_DebCalibrationStateProcess
+                        0x080026f5   0x42  Code  Gb  tsl_touchkey.o [1]
+TSL_tkey_DebDetectStateProcess
+                        0x080027e5   0x40  Code  Gb  tsl_touchkey.o [1]
+TSL_tkey_DebErrorStateProcess
+                        0x080028c9   0x74  Code  Gb  tsl_touchkey.o [1]
+TSL_tkey_DebReleaseDetectStateProcess
+                        0x08002607   0x3e  Code  Gb  tsl_touchkey.o [1]
+TSL_tkey_DebReleaseTouchStateProcess
+                        0x08002645   0x3e  Code  Gb  tsl_touchkey.o [1]
+TSL_tkey_DetectStateProcess
+                        0x0800282d   0x4e  Code  Gb  tsl_touchkey.o [1]
+TSL_tkey_GetStateMask   0x080025ed   0x1a  Code  Gb  tsl_touchkey.o [1]
+TSL_tkey_Init           0x080024f9   0x3e  Code  Gb  tsl_touchkey.o [1]
+TSL_tkey_Process        0x08002537   0x68  Code  Gb  tsl_touchkey.o [1]
+TSL_tkey_ReleaseStateProcess
+                        0x08002683   0x72  Code  Gb  tsl_touchkey.o [1]
+TSL_tkey_SetStateCalibration
+                        0x0800259f   0x4e  Code  Gb  tsl_touchkey.o [1]
+TSL_tkey_TouchStateProcess
+                        0x0800287b   0x4e  Code  Gb  tsl_touchkey.o [1]
+UART_AdvFeatureConfig   0x08001b83   0xc8  Code  Gb  stm32f0xx_hal_uart.o [1]
+UART_CheckIdleState     0x08001c4b   0x70  Code  Gb  stm32f0xx_hal_uart.o [1]
+UART_SetConfig          0x08001a45  0x13c  Code  Gb  stm32f0xx_hal_uart.o [1]
+UART_WaitOnFlagUntilTimeout
+                        0x08001cd5   0x62  Code  Gb  stm32f0xx_hal_uart.o [1]
+WaterProof_Process      0x0800108d   0x28  Code  Gb  main.o [1]
+_Error_Handler          0x080010c9    0x2  Code  Gb  main.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x20003fff         Data  Gb  command line/config [2]
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x20000000         Data  Gb  command line/config [2]
+__aeabi_idiv0           0x08000891         Code  Gb  IntDivZer.o [4]
+__aeabi_memcpy4         0x08000705         Code  Wk  ABImemcpy.o [4]
+__aeabi_uidiv           0x08000739         Code  Gb  I32DivModFast.o [4]
+__aeabi_uidivmod        0x08000739         Code  Gb  I32DivModFast.o [4]
+__cmain                 0x08002d3d         Code  Gb  cmain.o [4]
+__exit                  0x08002d71   0x14  Code  Gb  exit.o [5]
+__iar_data_init3        0x08002cc9   0x28  Code  Gb  data_init.o [4]
+__iar_packbits_init_single3
+                        0x08002c8d   0x3c  Code  Gb  packbits_init_single.o [4]
+__iar_program_start     0x08002d95         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3        0x08002c51   0x3c  Code  Gb  zero_init3.o [4]
+__low_level_init        0x08002d57    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000         Data  Gb  startup_stm32f072xb.o [1]
+_call_main              0x08002d49         Code  Gb  cmain.o [4]
+_exit                   0x08002d65         Code  Gb  cexit.o [4]
+_main                   0x08002d53         Code  Gb  cmain.o [4]
+exit                    0x08002d5b    0x8  Code  Gb  exit.o [3]
+hspi1                   0x20000540   0x64  Data  Gb  spi.o [1]
+htim17                  0x20000638   0x40  Data  Gb  tim.o [1]
+htim6                   0x200005f8   0x40  Data  Gb  tim.o [1]
+htsc                    0x20000678   0x40  Data  Gb  tsc.o [1]
+huart1                  0x200004d0   0x70  Data  Gb  usart.o [1]
+main                    0x08000f19   0x4e  Code  Gb  main.o [1]
+tsl_user_Exec           0x08001705   0x7c  Code  Gb  tsl_user.o [1]
+tsl_user_Exec::config_done
+                        0x20000018    0x4  Data  Lc  tsl_user.o [1]
+tsl_user_Exec::idx_bank
+                        0x20000014    0x4  Data  Lc  tsl_user.o [1]
+tsl_user_Init           0x080016f5   0x10  Code  Gb  tsl_user.o [1]
+uwTick                  0x20000700    0x4  Data  Gb  stm32f0xx_hal.o [1]
+
+
+[1] = C:\Projetos\EAGLE\TouchShield\TOUCH\EWARM\TOUCH\Obj
+[2] = command line
+[3] = dl6M_tlf.a
+[4] = rt6M_tl.a
+[5] = shb_l.a
+
+  11 030 bytes of readonly  code memory
+     758 bytes of readonly  data memory
+   1 798 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

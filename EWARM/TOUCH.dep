@@ -1,0 +1,1679 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2561633938</fileChecksum>
+  <configuration>
+    <name>TOUCH</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_pwr.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_i2c_ex.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_i2c.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_gpio.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_rcc.c</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\inc\tsl_check_config.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tsc.h</file>
+      <file>$PROJ_DIR$\..\Inc\main.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_spi.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_pwr.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_i2c.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_cortex.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_dma.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\inc\tsl_touchkey.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc_ex.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\inc\tsl_time.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\inc\tsl_filter.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl.c</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_acq.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_pwr_ex.c</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\inc\tsl_object.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_tsc.c</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\inc\tsl_globals.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_rcc_ex.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_spi.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_spi_ex.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_uart_ex.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_tim_ex.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_tim.c</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_acq_tsc.c</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\inc\tsl_dxs.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\inc\tsl_ecs.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\inc\tsl_linrot.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_uart.c</file>
+      <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\core_cmFunc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash_ex.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_pwr_ex.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_spi_ex.h</file>
+      <file>$PROJ_DIR$\..\Inc\gpio.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h</file>
+      <file>$PROJ_DIR$\stm32f072xb_flash.icf</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tlf.a</file>
+      <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$PROJ_DIR$\TOUCH\List\TOUCH.map</file>
+      <file>$PROJ_DIR$\..\Inc\usart.h</file>
+      <file>$PROJ_DIR$\..\Inc\spi.h</file>
+      <file>$PROJ_DIR$\..\Inc\tsc.h</file>
+      <file>$PROJ_DIR$\..\Inc\tim.h</file>
+      <file>$PROJ_DIR$\..\Inc\stm32f0xx_it.h</file>
+      <file>$PROJ_DIR$\..\Inc\tsl_conf.h</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_dxs.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_acq.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_acq_tsc.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_ecs.o</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\inc\tsl_check_config_tsc.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\inc\tsl.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\inc\tsl_globals.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\inc\tsl_object.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\inc\tsl_check_config.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\inc\tsl_types.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\inc\tsl_acq_tsc.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\inc\tsl_linrot.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\inc\tsl_ecs.h</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_user.o</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\inc\tsl_filter.h</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_filter.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_globals.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_linrot.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_object.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_time.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_acq_tsc.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_touchkey.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_acq.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_filter.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_dxs.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_ecs.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_globals.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_linrot.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_object.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_touchkey.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_time.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_user.pbi</file>
+      <file>$PROJ_DIR$\..\Inc\tsl_user.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\inc\tsl_dxs.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\inc\tsl_acq.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\inc\tsl_time.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\inc\tsl_touchkey.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\inc\tsl.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\inc\tsl_acq.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\inc\tsl_types.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\inc\tsl_check_config_tsc.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\inc\tsl_acq_tsc.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_dxs.c</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_ecs.c</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_filter.c</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_globals.c</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_linrot.c</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_object.c</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_time.c</file>
+      <file>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_touchkey.c</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_msp.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\gpio.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\startup_stm32f072xb.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\spi.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_it.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\system_stm32f0xx.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tim.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsc.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\usart.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_cortex.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_dma.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_flash.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_flash_ex.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_gpio.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_i2c.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_rcc_ex.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_spi.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_spi_ex.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_tim.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_tim_ex.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_tsc.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_uart.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_uart_ex.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\TOUCH.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_dma_ex.h</file>
+      <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\Inc\stm32f0xx_hal_conf.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_i2c_ex.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\core_cm0.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio_ex.h</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\spi.o</file>
+      <file>$PROJ_DIR$\TOUCH\Exe\TOUCH.out</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\main.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\gpio.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_pwr_ex.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_rcc.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_pwr.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_i2c_ex.pbi</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_msp.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_it.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tim.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_cortex.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\system_stm32f0xx.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsc.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\usart.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_dma.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_flash.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_flash_ex.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_gpio.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_i2c.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_i2c_ex.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_pwr.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_pwr_ex.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_rcc.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_rcc_ex.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_spi.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_spi_ex.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_tim.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_tim_ex.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_tsc.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_uart.o</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_uart_ex.o</file>
+      <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_filter.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_touchkey.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_time.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_object.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_dxs.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_globals.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_rcc.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_i2c.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_gpio.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_flash_ex.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_flash.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_dma.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\system_stm32f0xx.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_cortex.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_pwr_ex.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_pwr.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_i2c_ex.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_rcc_ex.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\usart.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_linrot.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_acq.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_ecs.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_uart_ex.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_uart.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_tsc.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_tim_ex.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_tim.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_acq_tsc.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_spi_ex.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_spi.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tim.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\gpio.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\spi.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_it.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsc.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\main.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\stm32f0xx_hal_msp.__cstat.et</file>
+      <file>$PROJ_DIR$\TOUCH\Obj\tsl_user.__cstat.et</file>
+      <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f072xb.h</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\src\tsl.c</file>
+      <file>$PROJ_DIR$\startup_stm32f072xb.s</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\src\tsl_acq.c</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\src\tsl_acq_tsc.c</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\src\tsl_dxs.c</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\src\tsl_ecs.c</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\src\tsl_filter.c</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\src\tsl_globals.c</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\src\tsl_linrot.c</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\src\tsl_object.c</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\src\tsl_time.c</file>
+      <file>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\src\tsl_touchkey.c</file>
+      <file>$PROJ_DIR$\..\Src\gpio.c</file>
+      <file>$PROJ_DIR$\..\Src\main.c</file>
+      <file>$PROJ_DIR$\..\Src\spi.c</file>
+      <file>$PROJ_DIR$\..\Src\stm32f0xx_hal_msp.c</file>
+      <file>$PROJ_DIR$\..\Src\stm32f0xx_it.c</file>
+      <file>$PROJ_DIR$\..\Src\tim.c</file>
+      <file>$PROJ_DIR$\..\Src\tsc.c</file>
+      <file>$PROJ_DIR$\..\Src\tsl_user.c</file>
+      <file>$PROJ_DIR$\..\Src\usart.c</file>
+      <file>$PROJ_DIR$\..\Src\system_stm32f0xx.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_cortex.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_dma.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_flash.c</file>
+      <file>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_flash_ex.c</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 159 55</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_pwr.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 208</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 164</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148 151 152 150 149 147 141 153 143 145 142 140 144 155 154 156 157 7 18 15 14 13 12 11 10 9 8 6 19 17 39 232 146 191 41 40 42 43 44 45 46 47 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_i2c_ex.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 209</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 165</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 179</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 17 40 44 45 18 8 143 43 156 46 14 10 19 141 146 41 151 7 15 13 11 9 6 39 232 191 42 47 150 148 155 145 142 154 149 140 147 157 144 152 153 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 199</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141 151 150 156 154 155 157 148 143 145 142 149 140 147 144 7 18 15 14 13 12 11 10 9 8 6 19 17 39 232 146 191 41 40 42 43 44 152 153 45 46 47 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 200</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 129</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 177</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141 155 157 151 154 156 150 148 143 145 142 149 140 147 144 152 153 7 18 15 14 13 12 11 10 9 8 6 19 17 39 232 146 191 41 40 42 43 44 45 46 47 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 198</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 182</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 154 151 156 141 155 157 153 150 148 143 145 142 149 140 147 144 152 7 18 15 14 13 12 11 10 9 8 6 19 17 39 232 146 191 41 40 42 43 44 45 46 47 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98 151 68 100 146 41 74 147 141 70 75 143 40 43 99 148 144 69 61 73 232 191 156 42 150 96 72 71 157 152 153 97 77 39 155 145 142 154 149 140 7 18 15 14 13 12 11 10 9 8 6 19 67 17 44 45 46 47 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 98 61 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 96 73 72 67 71 100 99 70 74 18 141 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49 97 75 77 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_acq.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 149 232 191 100 146 145 142 140 68 61 98 99 39 155 143 151 154 156 150 96 70 41 40 42 43 74</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 98 61 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 96 68 99 100 74 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_pwr_ex.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 207</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 232 7 15 11 191 42 43 141 13 9 39 156 151 47 18 14 12 10 8 19 17 146 143 41 40 44 45 46 150 148 155 145 142 154 149 140 147 157 144 152 153 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_tsc.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 218</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 188</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144 143 145 142 140 141 150 148 149 147 151 152 153 155 154 156 157 7 18 15 14 13 12 11 10 9 8 6 19 17 39 232 146 191 41 40 42 43 44 45 46 47 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_rcc_ex.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 210</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 131</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 183</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 147 141 149 150 148 151 152 143 145 142 140 144 153 155 154 156 157 7 18 15 14 13 12 11 10 9 8 6 19 17 39 232 146 191 41 40 42 43 44 45 46 47 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_spi.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 223</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 184</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146 141 10 41 151 14 19 18 12 8 17 143 40 43 44 156 45 7 15 13 11 9 6 39 232 191 42 150 148 155 145 142 154 149 140 147 157 144 152 153 46 47 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_spi_ex.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 222</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 185</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 154 151 156 141 155 157 150 148 143 145 142 149 140 147 144 152 153 7 18 15 14 13 12 11 10 9 8 6 19 17 39 232 146 191 41 40 42 43 44 45 46 47 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_uart_ex.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 216</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 190</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 143 156 46 18 43 12 17 40 44 45 14 10 19 141 146 41 151 7 15 13 11 9 6 39 232 191 42 47 150 148 155 145 142 154 149 140 147 157 144 152 153 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_tim_ex.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 219</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 187</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 148 151 152 149 147 141 143 145 142 140 144 153 155 154 156 157 7 18 15 14 13 12 11 10 9 8 6 19 17 39 232 146 191 41 40 42 43 44 45 46 47 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_tim.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 220</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141 151 150 156 154 155 157 148 143 145 142 149 140 147 7 18 15 14 13 12 11 10 9 8 6 19 17 39 232 146 191 41 40 42 43 44 144 152 153 45 46 47 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_acq_tsc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 98 99 40 143 43 74 61 155 41 151 232 146 191 156 42 73 145 142 154 149 140 150 7 96 68 100</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73 61 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 96 68 98 99 100 74</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_uart.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 217</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 189</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157 155 141 151 154 156 153 150 148 143 145 142 149 140 147 144 152 7 18 15 14 13 12 11 10 9 8 6 19 17 39 232 146 191 41 40 42 43 44 45 46 47 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_dxs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 154 69 61 155 151 156 98 100 39 143 96 70 232 146 191 145 142 149 140 7 68 75 97 41 40 42 43 99 74 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 70 100 98 61 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 96 68 99 74 75 77 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_ecs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 156 73 151 61 155 150 75 70 100 39 143 42 43 96 98 72 71 232 146 191 41 40 7 68 69 145 142 154 149 140 99 74 97 77 67</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75 70 100 98 61 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 96 68 99 74 97 77 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_filter.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 146 149 100 98 232 191 145 142 140 68 61 99 39 155 143 151 154 156 150 96 70 77 41 40 42 43 74</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77 98 61 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 96 68 99 100 74 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_globals.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 146 149 100 98 232 191 145 142 140 68 61 99 39 155 143 151 154 156 150 96 70 69 41 40 42 43 74</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69 98 61 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 96 68 99 100 74 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_linrot.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 100 67 149 8 156 12 70 141 44 45 143 145 142 140 14 10 19 75 17 153 99 39 155 151 154 7 15 13 11 9 6 146 98 69 61 73 232 191 41 40 42 43 150 96 68 74 97 77 72 71 148 147 157 144 152 46 47 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74 98 61 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 96 68 99 100 70 97 75 77 69 73 72 67 71 18 141 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_object.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 149 61 146 100 98 232 191 145 142 140 68 75 39 155 143 151 154 156 150 96 70 69 41 40 42 43 99 74 97 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70 100 98 61 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 96 68 99 74 97 75 77 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_time.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98 99 43 143 74 232 191 40 146 41 151 61 39 155 156 42 145 142 154 149 140 150 7 96 68 100</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99 61 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 96 68 98 100 74</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_touchkey.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69 143 154 150 39 151 156 98 70 61 155 96 232 146 191 145 142 149 140 7 68 100 75 74 41 40 42 43 99 97 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 98 61 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 96 68 99 74 70 97 75 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\TOUCH\Exe\TOUCH.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 50 161 160 158 116 173 169 174 175 176 177 178 179 166 180 181 182 183 184 185 186 187 188 189 190 167 170 168 171 62 64 65 63 66 78 79 80 81 82 85 76 172 53 54 52 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\src\tsl.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 61 105 18 37 156 151 12 17 141 103 25 21 232 191 42 43 14 10 19 44 45 46 20 35 146 143 41 40 7 15 13 11 9 6 39 47 102 16 36 27 155 145 142 154 149 140 150 148 147 157 144 152 153 101 49 104 5</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 101 102 61 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 18 141 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49 105 103 104 5 20 16 37 25 35 36 21 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\startup_stm32f072xb.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 116</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\src\tsl_acq.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 214</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43 141 143 12 17 49 40 18 8 146 41 151 14 10 19 44 156 45 102 105 232 191 42 7 15 13 11 9 6 39 46 104 37 27 61 155 145 142 154 149 140 150 148 147 157 144 47 152 153 103 5 25 16 20</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 102 61 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 18 141 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49 105 103 104 5 27 25 16 20 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\src\tsl_acq_tsc.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 221</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 14 191 43 19 156 46 232 10 141 44 45 105 151 18 12 8 17 102 103 146 143 41 40 7 15 13 11 9 6 39 47 16 61 27 104 155 145 142 154 149 140 150 148 147 157 144 152 49 20 153 5 25 37</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 105 61 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 18 141 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49 103 104 5 27 102 25 16 20 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\src\tsl_dxs.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 196</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 155 151 152 147 141 104 39 154 156 150 148 144 25 37 102 143 145 142 149 140 157 20 27 16 61 105 232 146 191 41 40 42 43 7 18 15 14 13 12 11 10 9 8 6 19 17 44 45 46 47 49 5 35 153 103</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35 25 16 102 61 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 18 141 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49 105 103 104 5 20 37 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\src\tsl_ecs.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 215</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 151 156 141 39 154 150 148 144 104 155 147 152 37 102 143 145 142 149 140 157 20 27 25 16 61 105 232 146 191 41 40 42 43 7 18 15 14 13 12 11 10 9 8 6 19 17 44 45 46 47 49 5 36 153 103</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36 25 16 102 61 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 18 141 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49 105 103 104 5 20 37 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\src\tsl_filter.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 192</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141 156 151 39 154 150 148 144 155 147 152 153 61 143 145 142 149 140 157 49 5 102 105 232 146 191 41 40 42 43 7 18 15 14 13 12 11 10 9 8 6 19 17 44 45 46 47 104 21 103</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21 102 61 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 18 141 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49 105 103 104 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\src\tsl_globals.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 197</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 149 141 151 143 145 142 140 157 102 39 155 154 156 150 148 147 144 152 103 16 61 25 105 232 146 191 41 40 42 43 7 18 15 14 13 12 11 10 9 8 6 19 17 44 45 46 47 153 20 27 49 104 5 37</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27 102 61 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 18 141 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49 105 103 104 5 25 16 20 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\src\tsl_linrot.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 212</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 155 151 152 147 141 103 102 39 154 156 150 148 144 61 143 145 142 149 140 157 27 20 105 232 146 191 41 40 42 43 7 18 15 14 13 12 11 10 9 8 6 19 17 44 45 46 47 153 37 49 104 5 25 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 102 61 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 18 141 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49 105 103 104 5 20 27 25 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\src\tsl_object.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 195</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141 151 16 156 12 17 61 105 18 8 104 232 191 42 43 14 10 19 44 45 46 20 146 143 41 40 7 15 13 11 9 6 39 47 102 27 37 155 145 142 154 149 140 150 148 147 157 144 152 49 5 25 153 103</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25 16 102 61 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 18 141 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49 105 103 104 5 20 37 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\src\tsl_time.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 194</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45 232 10 44 141 102 191 42 43 14 19 156 46 16 105 151 18 12 8 17 103 146 143 41 40 7 15 13 11 9 6 39 47 27 61 155 145 142 154 149 140 150 148 147 157 144 152 153 20 49 104 5 25 37</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20 61 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 18 141 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49 105 103 104 5 27 102 25 16 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Middlewares\ST\STM32_TouchSensing_Library\src\tsl_touchkey.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 193</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 40 7 15 141 20 143 43 11 156 47 146 41 151 13 9 39 37 102 61 105 232 191 42 18 14 12 10 8 19 17 44 45 46 153 27 155 145 142 154 149 140 150 148 147 157 144 152 103 16 49 104 5 25</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 102 61 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 18 141 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49 105 103 104 5 20 27 25 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\gpio.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 225</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 161</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 140 142 141 146 143 145 144 150 148 149 147 151 152 153 155 154 156 157 7 18 15 14 13 12 11 10 9 8 6 19 17 39 232 191 41 40 42 43 44 45 46 47 48 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\main.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 229</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 160</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 191 43 42 141 232 7 103 25 58 39 156 151 47 146 36 61 57 48 150 17 143 41 40 44 45 46 16 102 20 59 56 96 18 15 14 13 12 11 10 9 8 6 19 148 155 145 142 154 149 140 147 157 144 152 153 101 27 49 37 35 21 105 104 5</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 146 150 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49 57 59 58 56 48 96 101 102 61 105 103 104 5 20 16 37 25 35 36 21 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\spi.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 226</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 158</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146 10 7 141 41 151 14 19 18 12 8 17 143 40 43 44 156 45 46 15 13 11 9 6 39 232 191 42 47 48 150 148 155 145 142 154 149 140 147 157 144 152 153 49 57</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\stm32f0xx_hal_msp.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 230</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 166</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145 143 144 142 140 141 150 148 149 147 151 152 153 155 154 156 157 7 18 15 14 13 12 11 10 9 8 6 19 17 39 232 146 191 41 40 42 43 44 45 46 47 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\stm32f0xx_it.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 227</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43 191 11 42 141 7 15 6 232 13 9 39 156 151 47 60 18 14 12 10 8 19 17 146 143 41 40 44 45 46 150 148 155 145 142 154 149 140 147 157 144 152 153 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\tim.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 224</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 44 12 17 45 18 8 143 43 156 46 7 14 10 19 141 146 41 151 15 13 11 9 6 39 232 191 42 47 150 148 155 145 142 154 149 140 147 157 144 152 153 59 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\tsc.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 228</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 171</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 140 142 141 146 143 145 144 150 148 149 147 151 152 153 155 154 156 157 48 7 18 15 14 13 12 11 10 9 8 6 19 17 39 232 191 41 40 42 43 44 45 46 47 49 58</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\tsl_user.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 231</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 39 141 151 20 146 41 13 103 25 35 143 40 43 7 15 11 6 156 47 61 37 21 105 232 191 42 18 14 12 10 8 19 17 44 45 46 102 16 101 36 27 155 145 142 154 149 140 150 148 147 157 144 152 153 96 49 104 5</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96 101 102 61 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 18 141 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49 105 103 104 5 20 16 37 25 35 36 21 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\usart.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 211</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 172</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 148 151 152 149 147 141 153 146 143 145 142 140 144 155 154 156 157 48 7 18 15 14 13 12 11 10 9 8 6 19 17 39 232 191 41 40 42 43 44 45 46 47 49 56</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\system_stm32f0xx.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 204</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 170</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141 232 10 44 45 191 42 43 14 19 156 46 151 18 12 8 17 146 143 41 40 7 15 13 11 9 6 39 47 155 145 142 154 149 140 150 148 147 157 144 152 153 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 146 150 7 18 141 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 205</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 173</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 151 154 156 141 155 157 150 148 143 145 142 149 140 147 144 152 153 7 18 15 14 13 12 11 10 9 8 6 19 17 39 232 146 191 41 40 42 43 44 45 46 47 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_cortex.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 206</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 169</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 156 39 151 141 13 47 7 15 11 6 232 191 42 43 18 14 12 10 8 19 17 146 143 41 40 44 45 46 150 148 155 145 142 154 149 140 147 157 144 152 153 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_dma.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 203</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 174</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 156 13 47 9 39 151 141 7 15 11 6 232 191 42 43 18 14 12 10 8 19 17 146 143 41 40 44 45 46 150 148 155 145 142 154 149 140 147 157 144 152 153 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_flash.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 202</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 127</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141 19 14 151 10 146 41 18 12 8 17 143 40 43 44 156 45 46 7 15 13 11 9 6 39 232 191 42 47 150 148 155 145 142 154 149 140 147 157 144 152 153 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_flash_ex.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 201</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 176</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 151 141 19 10 146 41 18 12 8 17 143 40 43 44 156 45 46 153 7 15 13 11 9 6 39 232 191 42 47 150 148 155 145 142 154 149 140 147 157 144 152 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 150 7 18 141 39 232 155 143 151 156 142 40 42 154 149 145 43 140 41 191 148 147 44 17 15 157 14 144 13 12 45 11 152 10 46 9 47 8 153 6 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_acq.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_acq_tsc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_dxs.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_ecs.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_filter.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_globals.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_linrot.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_object.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_time.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\Middlewares\STM32_TouchSensing_Library\src\tsl_touchkey.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
